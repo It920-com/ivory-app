@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Ivory app icon: three goal bars (solid = done, light = scheduled) crossed by today's tick.
+       Square and unmasked: the system rounds the corners. Content stays inside the central 80% for maskable icons. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A7BE6"/>
+      <stop offset="1" stop-color="#0052A8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <g fill="#FFFCF2" transform="translate(30 0)">
+    <rect x="222" y="292" width="520" height="112" rx="56" opacity=".45"/>
+    <rect x="222" y="456" width="430" height="112" rx="56" opacity=".45"/>
+    <rect x="222" y="620" width="560" height="112" rx="56" opacity=".45"/>
+    <rect x="222" y="292" width="400" height="112" rx="56"/>
+    <rect x="222" y="456" width="230" height="112" rx="56"/>
+    <rect x="222" y="620" width="330" height="112" rx="56"/>
+    <rect x="566" y="232" width="26" height="560" rx="13" opacity=".9"/>
+  </g>
+</svg>
